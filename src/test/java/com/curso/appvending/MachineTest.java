@@ -21,5 +21,60 @@ public class MachineTest {
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
+
+    /**
+     * Test of buyProduct method, of class Machine.
+     */
+    @Test
+    public void testBuyProduct() {
+        System.out.println("buyProduct");
+        int id = 0;
+        Machine instance = new Machine();
+        instance.buyProduct(id);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of enoughtProducts method, of class Machine.
+     */
+    @Test
+    public void testEnoughtProducts() {
+        System.out.println("enoughtProducts");
+        int id = 0;
+        Machine instance = new Machine();
+        boolean expResult = false;
+        boolean result = instance.enoughtProducts(id);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of getAllProducts method, of class Machine.
+     */
+    @Test
+    public void testGetAllProducts() {
+        System.out.println("getAllProducts");
+        Machine instance = new Machine();
+        instance.getAllProducts();
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
+
+    /**
+     * Test of getProductPrice method, of class Machine.
+     */
+    @Test
+    public void testGetProductPrice() {
+        System.out.println("getProductPrice");
+        int id = 0;
+        Machine instance = new Machine();
+        int expResult = 0;
+        int result = instance.getProductPrice(id);
+        assertEquals(expResult, result);
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test case is a prototype.");
+    }
     
 }

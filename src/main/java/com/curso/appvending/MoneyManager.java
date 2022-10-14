@@ -29,6 +29,11 @@ public class MoneyManager {
         }
     }
 
+    /**
+     * Get a coin and save it.
+     * 
+     * @param coin to insert
+     */
     public void addCoin(int coin) {
         if (validCoin(coin)) {
             totalMoney += coin;
@@ -38,14 +43,30 @@ public class MoneyManager {
         }
     }
 
+    /**
+     * Validate a coin
+     * 
+     * @param coin
+     * @return true if the coin exists
+     * false if not
+     */
     private boolean validCoin(int coin) {
         return coins.contains(coin);
     }
 
+    /**
+     *
+     * @return the total amount of money
+     */
     public int getTotalMoney() {
         return totalMoney;
     }
 
+    /**
+     *Calculate the amount of the cashback of a purchase
+     * 
+     * @param price of the purchase
+     */
     public void cashBack(int price) {
         totalMoney -= price;
         if (totalMoney != 0) {
@@ -72,6 +93,9 @@ public class MoneyManager {
         printCashBack();
     }
 
+    /**
+     *Print the cashback
+     */
     public void printCashBack() {
         if (coinsBack != null) {
             System.out.println("Cashback: ");
@@ -84,6 +108,9 @@ public class MoneyManager {
         }
     }
 
+    /**
+     * Returns all the money inserted
+     */
     public void cashBackWithoutBuy() {
         printCashBack();
     }

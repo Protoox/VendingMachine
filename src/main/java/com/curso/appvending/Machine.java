@@ -13,6 +13,9 @@ import java.util.ArrayList;
 public class Machine {
     ArrayList<Product> pr;
 
+    /**
+     *Create a Machine with an ArrayList of Products object
+     */
     public Machine() {
          pr = new ArrayList<>();
          pr.add(new Product(1, "Wumpas", 1, 5));
@@ -20,6 +23,13 @@ public class Machine {
          pr.add(new Product(3, "NapiaCola", 200, 0));
     }
     
+    
+    /**
+     * Buy a product checking only if there
+     * is enough stocks
+     * 
+     * @param id id of the product
+     */
     public void buyProduct(int id){
         for (Product product : pr) {
             if (product.getId() == id) {
@@ -31,6 +41,13 @@ public class Machine {
         }
     }
     
+    /**
+     * Check if there are enough product.
+     *
+     * @param id
+     * @return true if there are enough products
+     * or false if not
+     */
     public boolean enoughtProducts(int id){
         for (Product product : pr) {
             if (product.getId() == id) {
@@ -42,12 +59,21 @@ public class Machine {
         return false;
     }
 
+    /**
+     *Get all product ant print them.
+     */
     public void getAllProducts() {
         for (Product product : pr) {
             System.out.println(product);
         }
     }
     
+    /**
+     * Get the price of the product id selected
+     *
+     * @param id of the product
+     * @return the price
+     */
     public int getProductPrice(int id){
         for (Product product : pr) {
             if (product.getId() == id) {

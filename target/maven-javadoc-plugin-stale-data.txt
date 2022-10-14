@@ -1,0 +1,51 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'19'
+-sourcepath
+'C:/Users/miromero/Documents/NetBeansProjects/AppVending/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/miromero/Documents/NetBeansProjects/AppVending/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'AppVending 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'AppVending 1.0-SNAPSHOT API'
+com.curso.appvending
+'C:/Users/miromero/Documents/NetBeansProjects/AppVending/src/main/java/com/curso/appvending/AppVending.java'
+'C:/Users/miromero/Documents/NetBeansProjects/AppVending/src/main/java/com/curso/appvending/Machine.java'
+'C:/Users/miromero/Documents/NetBeansProjects/AppVending/src/main/java/com/curso/appvending/MoneyManager.java'
+'C:/Users/miromero/Documents/NetBeansProjects/AppVending/src/main/java/com/curso/appvending/Product.java'
+'C:/Users/miromero/Documents/NetBeansProjects/AppVending/src/main/java/com/curso/appvending/VendingInterface.java'
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\src\main\java = 1665673237292
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\allclasses-index.html = 1665746711154
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\allpackages-index.html = 1665746711159
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\copy.svg = 1665746711226
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\element-list = 1665746711051
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\help-doc.html = 1665746711212
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\index-all.html = 1665746711193
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\index.html = 1665746711204
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\jquery-ui.overrides.css = 1665746711258
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\member-search-index.js = 1665746711169
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\module-search-index.js = 1665746711161
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\overview-tree.html = 1665746711134
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\package-search-index.js = 1665746711164
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\script.js = 1665746711223
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\search-page.js = 1665746711237
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\search.html = 1665746711199
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\search.js = 1665746711232
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\stylesheet.css = 1665746711218
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\tag-search-index.js = 1665746711171
+C:\Users\miromero\Documents\NetBeansProjects\AppVending\target\site\apidocs\type-search-index.js = 1665746711166

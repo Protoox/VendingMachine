@@ -16,6 +16,14 @@ public class Product {
     private int price;
     private int quantity;
 
+    /**
+     * Create a new product
+     *
+     * @param id
+     * @param name
+     * @param price
+     * @param quantity
+     */
     public Product(int id, String name, int price, int quantity) {
         this.id = id;
         this.name = name;
@@ -36,6 +44,7 @@ public class Product {
     public int getQuantity() {
         return quantity;
     }
+
 
     public void restQuantity() {
         this.quantity -= 1;
